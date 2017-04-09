@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
   for (i = 0; i <= 100; i++)
     res[i] = (char*)malloc(101 * sizeof(char));
 
-  store(res, "data.in");
+  store(res, "A-small-practice.in");
   show_input(res);
 
   
